@@ -1,12 +1,125 @@
+* {
+  margin: 0;
+  padding: 0; }
+
 .presentacionuno {
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  margin-top: 10px; }
 
 .contenedor {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  margin-bottom: 10px; }
 
 .footerx {
   width: 100%; }
+
+body {
+  background-color: #ffcfd7; }
+
+.productos {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  margin-top: 30px; }
+  .productos img:hover {
+    filter: opacity(0.5); }
+
+.productoss {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap; }
+  .productoss img:hover {
+    filter: opacity(0.5); }
+
+.productos3 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap; }
+  .productos3 img:hover {
+    filter: opacity(0.5); }
+
+@media (max-width: 425px) {
+  .productos img {
+    padding: 20px;
+    margin-top: 60px;
+    width: 200px;
+    height: 300px; }
+  .productoss img {
+    padding: 20px;
+    margin-top: 20px;
+    width: 200px;
+    height: 300px; }
+  .productos3 img {
+    padding: 20px;
+    margin-top: 20px;
+    width: 200px;
+    height: 300px; } }
+
+.catalogo {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.catalogoimagen {
+  display: flex;
+  justify-content: center;
+  margin: 40px; }
+
+.form {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  padding: 10px; }
+
+.insta {
+  display: flex;
+  justify-content: center; }
+
+.info {
+  display: flex;
+  justify-content: center; }
+  .info p {
+    color: pink; }
+
+@media (max-width: 425px) {
+  .catalogo {
+    margin-top: 40px; }
+  p {
+    color: pink; }
+  .footerx {
+    width: 1000px; } }
+
+.card-group {
+  margin: 30px; }
+  .card-group .card {
+    margin: 40px;
+    padding: 50px; }
+
+.opiniones {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center; }
+
+@media (max-width: 425px) {
+  .opinion1 {
+    display: flex;
+    justify-content: center; }
+  img {
+    width: 200px; }
+  .opinion1 {
+    display: flex;
+    justify-content: center; }
+  img {
+    width: 200px; }
+  .opinion2 {
+    display: flex;
+    justify-content: center; }
+  img {
+    width: 200px; } }
+
+footer {
+  width: 500px; }

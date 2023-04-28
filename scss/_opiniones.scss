@@ -1,0 +1,45 @@
+
+.opiniones{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+
+
+}
+
+
+
+
+
+@media (max-width: 425px) {
+
+
+    .opinion1 {
+        display: flex;
+        justify-content: center;
+    }
+
+    img {
+        width: 200px;
+    }
+
+    .opinion1 {
+        display: flex;
+        justify-content: center;
+    }
+
+    img {
+        width: 200px;
+    }
+
+    .opinion2 {
+        display: flex;
+        justify-content: center;
+    }
+
+    img {
+        width: 200px;
+    }
+
+
+}
