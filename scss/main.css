@@ -132,6 +132,9 @@ body {
   padding: 50px;
   background-color: pink;
 }
+.card-group p {
+  color: aqua;
+}
 
 .opiniones {
   display: flex;

@@ -14,11 +14,7 @@
   align-items: center;
   margin-bottom: 10px; }
 
-.footerx {
-  width: 100%; }
 
-body {
-  background-color: #ffcfd7; }
 
 .productos {
   display: flex;
@@ -121,5 +117,3 @@ body {
   img {
     width: 200px; } }
 
-footer {
-  width: 500px; }

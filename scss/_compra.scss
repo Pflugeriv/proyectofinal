@@ -1,14 +1,23 @@
+.cartas{
+
+    p{
+    color:red;
+    }
+}
+
 .card-group {
-    
     margin: 30px;
     background-color: pink;
-    
-
-    .card {
-        margin: 40px;
-        padding: 50px;
-        background-color: pink;
-    }
-
-
+  }
+  .card-group .card {
+    margin: 40px;
+    padding: 50px;
+    background-color: pink;
+  }
+  
+@media (max-width: 425px) {
 }
+
+
+
+//no me toma ningun estilo
