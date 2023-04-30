@@ -1,17 +1,7 @@
-
-@import './reset';
-@import './index';
-@import './body';
-@import './productos';
-@import './contacto';
-@import './compra';
-@import './opiniones';
-@import './footer';
-@import './utilities/colores';
-
-footer {
-    background: rgb(255, 255, 255);
-    background: radial-gradient(circle, rgba(255, 255, 255, 0.36458333333333337) 0%, rgba(252, 67, 123, 1) 98%);
-
-
-}
+@import './pages/reset';
+@import './pages/compra';
+@import './pages/contacto';
+@import './pages/footer';
+@import './pages/index';
+@import './pages/opiniones';
+@import './pages/productos';

@@ -3,6 +3,79 @@
   padding: 0;
 }
 
+.cartas p {
+  color: red;
+}
+
+.card-group {
+  margin: 30px;
+  background-color: pink;
+}
+
+.card-group .card {
+  margin: 40px;
+  padding: 50px;
+  background-color: pink;
+}
+
+.catalogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.catalogoimagen {
+  display: flex;
+  justify-content: center;
+  margin: 40px;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  padding: 10px;
+}
+
+.insta {
+  display: flex;
+  justify-content: center;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+}
+.info p {
+  color: rgb(255, 126, 147);
+}
+
+@media (max-width: 425px) {
+  .catalogo {
+    margin-top: 40px;
+  }
+  p {
+    color: pink;
+  }
+}
+footer {
+  background-color: rgb(255, 255, 255);
+  background-color: radial-gradient(circle, rgba(255, 255, 255, 0.3645833333) 0%, rgb(252, 67, 123) 98%);
+}
+footer .instagram {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1px;
+}
+footer .copy {
+  display: flex;
+  justify-content: center;
+}
+footer .contenedor {
+  display: flex;
+}
+
 .presentacionuno {
   display: flex;
   justify-content: center;
@@ -21,6 +94,11 @@
   width: 50vw;
 }
 
+footer {
+  background: rgb(255, 255, 255);
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.3645833333) 0%, rgb(252, 67, 123) 98%);
+}
+
 @media (max-width: 425px) {
   .precentacionuno img {
     margin: 2px;
@@ -28,10 +106,46 @@
     width: 800px;
   }
 }
-body {
-  background-color: rgb(255, 207, 215);
+.opiniones {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
 }
 
+@media (max-width: 425px) {
+  .opinion1 {
+    display: flex;
+    justify-content: center;
+  }
+  img {
+    width: 200px;
+  }
+  .opinion1 {
+    display: flex;
+    justify-content: center;
+  }
+  img {
+    width: 200px;
+  }
+  .opinion2 {
+    display: flex;
+    justify-content: center;
+  }
+  img {
+    width: 200px;
+  }
+}
+@media (max-width: 425px) {
+  .opinion1 {
+    padding: 20px;
+    align-items: center;
+    flex-direction: column;
+  }
+  .opinion2 {
+    align-items: center;
+    flex-direction: column;
+  }
+}
 .productos {
   display: flex;
   justify-content: space-between;
@@ -79,105 +193,4 @@ body {
     width: 200px;
     height: 300px;
   }
-}
-.catalogo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.catalogoimagen {
-  display: flex;
-  justify-content: center;
-  margin: 40px;
-}
-
-.form {
-  display: flex;
-  justify-content: center;
-  margin: 10px;
-  padding: 10px;
-}
-
-.insta {
-  display: flex;
-  justify-content: center;
-}
-
-.info {
-  display: flex;
-  justify-content: center;
-}
-.info p {
-  color: pink;
-}
-
-@media (max-width: 425px) {
-  .catalogo {
-    margin-top: 40px;
-  }
-  p {
-    color: pink;
-  }
-  .footerx {
-    width: 1000px;
-  }
-}
-.card-group {
-  margin: 30px;
-  background-color: pink;
-}
-.card-group .card {
-  margin: 40px;
-  padding: 50px;
-  background-color: pink;
-}
-.card-group p {
-  color: aqua;
-}
-
-.opiniones {
-  display: flex;
-  flex-direction: column-reverse;
-  align-items: center;
-}
-
-@media (max-width: 425px) {
-  .opinion1 {
-    display: flex;
-    justify-content: center;
-  }
-  img {
-    width: 200px;
-  }
-  .opinion1 {
-    display: flex;
-    justify-content: center;
-  }
-  img {
-    width: 200px;
-  }
-  .opinion2 {
-    display: flex;
-    justify-content: center;
-  }
-  img {
-    width: 200px;
-  }
-}
-footer {
-  background: rgb(255, 255, 255);
-  background: radial-gradient(circle, rgba(255, 255, 255, 0.3645833333) 0%, rgb(252, 67, 123) 98%);
-  height: 20vh;
-  display: flex;
-}
-footer .instagram {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 1px;
-}
-footer .copy {
-  display: flex;
-  justify-content: center;
 }/*# sourceMappingURL=main.css.map */
