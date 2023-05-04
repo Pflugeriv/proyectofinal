@@ -1,13 +1,14 @@
 footer {
-    background-color: rgb(255, 255, 255);
-    background-color: radial-gradient(circle, rgba(255, 255, 255, 0.36458333333333337) 0%, rgba(252, 67, 123, 1) 98%);
+   
+    background: rgb(255, 255, 255);
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.36458333333333337) 0%, rgba(252, 67, 123, 1) 98%);
 
 
     .instagram {
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding: 1px;
+       
     }
 
     .copy {
@@ -19,4 +20,17 @@ footer {
     .contenedor {
         display: flex;
     }
+}
+
+@media (max-width: 425px) {
+
+    footer {
+        height: 10vh;
+
+    .img-tm{
+        width:10px;
+    }
+
+    }
+   
 }

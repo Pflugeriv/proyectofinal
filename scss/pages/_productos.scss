@@ -1,34 +1,20 @@
-.productos {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: nowrap;
-    margin-top: 30px;
-
-    & img:hover {
-        filter: opacity(.5);
-    }
+.body-bg{
+    background-color: rgba(185, 136, 152, 0.5);
 }
 
 
-.productoss {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: nowrap;
+
+
+
+.productos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 
     & img:hover {
         filter: opacity(.5);
     }
-}
 
-
-.productos3 {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: nowrap;
-
-    & img:hover {
-        filter: opacity(.5);
-    }
+    margin:30px;
 }
 
 
