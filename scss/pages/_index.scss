@@ -1,26 +1,6 @@
-
-
-.presentacionuno{
-    display:flex;
-    justify-content: center;
-    margin-top: 10px;
+/*.container img{
+    width: 100%;
 }
-
-.contenedor{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 10px;
-}
-
-.instag
-    { width: 50vw;
-
-     }
-
-    
-
 
 @media (max-width: 425px) {
 
@@ -30,4 +10,16 @@
     width: 800px;
 }
 
+}*/
+
+.card{
+    display: flex;
+    margin: 30px;
+    padding: 20px;
+}
+
+
+.card-body{
+    background-color: pink;
+  
 }

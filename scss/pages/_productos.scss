@@ -1,12 +1,4 @@
-.body-bg{
-    background-color: rgba(185, 136, 152, 0.5);
-}
-
-
-
-
-
-.productos{
+.productos {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 
@@ -14,34 +6,20 @@
         filter: opacity(.5);
     }
 
-    margin:30px;
 }
 
 
 
-
+@media(max-width: 768px) {
+   
+    .productos {
+        grid-template-columns: 1fr 1fr;
+    }
+}
 
 @media (max-width: 425px) {
 
-    .productos img {
-        padding: 20px;
-        margin-top: 60px;
-        width: 200px;
-        height: 300px;
+    .productos {
+        grid-template-columns: 1fr 1fr;
     }
-
-    .productoss img {
-        padding: 20px;
-        margin-top: 20px;
-        width: 200px;
-        height: 300px;
-    }
-
-    .productos3 img {
-        padding: 20px;
-        margin-top: 20px;
-        width: 200px;
-        height: 300px;
-    }
-
 }

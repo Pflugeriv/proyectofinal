@@ -4,12 +4,6 @@
   font-family: "Parisienne", cursive;
 }
 
-.card-group .card {
-  margin: 40px;
-  padding: 50px;
-  background-color: pink;
-}
-
 .catalogo-form {
   display: flex;
   justify-content: center;
@@ -39,6 +33,12 @@
   p {
     color: pink;
   }
+  .catalogo-form {
+    display: flex;
+    margin: 20px;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 footer {
   background: rgb(255, 255, 255);
@@ -58,38 +58,33 @@ footer .contenedor {
 }
 
 @media (max-width: 425px) {
-  footer {
-    height: 10vh;
-  }
-  footer .img-tm {
+  footer .instagram p a {
     width: 10px;
   }
 }
-.presentacionuno {
-  display: flex;
-  justify-content: center;
-  margin-top: 10px;
-}
-
-.contenedor {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 10px;
-}
-
-.instag {
-  width: 50vw;
+/*.container img{
+    width: 100%;
 }
 
 @media (max-width: 425px) {
-  .precentacionuno img {
-    margin: 2px;
-    padding: 2px;
+
+.precentacionuno img{
+    margin:2px;
+    padding:2px;
     width: 800px;
-  }
 }
+
+}*/
+.card {
+  display: flex;
+  margin: 30px;
+  padding: 20px;
+}
+
+.card-body {
+  background-color: pink;
+}
+
 .opiniones {
   display: flex;
   flex-direction: column-reverse;
@@ -130,37 +125,22 @@ footer .contenedor {
     flex-direction: column;
   }
 }
-.body-bg {
-  background-color: rgba(185, 136, 152, 0.5);
-}
-
 .productos {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  margin: 30px;
 }
 .productos img:hover {
   filter: opacity(0.5);
 }
 
+@media (max-width: 768px) {
+  .productos {
+    grid-template-columns: 1fr 1fr;
+  }
+}
 @media (max-width: 425px) {
-  .productos img {
-    padding: 20px;
-    margin-top: 60px;
-    width: 200px;
-    height: 300px;
-  }
-  .productoss img {
-    padding: 20px;
-    margin-top: 20px;
-    width: 200px;
-    height: 300px;
-  }
-  .productos3 img {
-    padding: 20px;
-    margin-top: 20px;
-    width: 200px;
-    height: 300px;
+  .productos {
+    grid-template-columns: 1fr 1fr;
   }
 }
 .navbar {
