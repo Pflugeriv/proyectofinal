@@ -1,12 +1,4 @@
 
-.opiniones{
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: center;
-
-
-}
-
 
 
 
@@ -14,47 +6,6 @@
 @media (max-width: 425px) {
 
 
-    .opinion1 {
-        display: flex;
-        justify-content: center;
-    }
-
-    img {
-        width: 200px;
-    }
-
-    .opinion1 {
-        display: flex;
-        justify-content: center;
-    }
-
-    img {
-        width: 200px;
-    }
-
-    .opinion2 {
-        display: flex;
-        justify-content: center;
-    }
-
-    img {
-        width: 200px;
-    }
-
-
 }
 
 
-@media (max-width: 425px) {
-
-.opinion1 {
-    padding: 20px;
-    align-items: center;
-    flex-direction: column;
-}
-
-.opinion2 {
-    align-items: center;
-    flex-direction: column;
-}
-}
