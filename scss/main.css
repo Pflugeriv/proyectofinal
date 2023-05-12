@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "Parisienne", cursive;
+  font-family: "Montserrat", sans-serif;
 }
 
 .catalogo-form {
@@ -22,8 +22,14 @@
   background-color: palevioletred;
   justify-content: center;
   margin: 30px;
-  border: ridge pink 10px;
   color: beige;
+  border: groove;
+}
+
+.instagram {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 @media (max-width: 425px) {
@@ -38,8 +44,8 @@
   }
 }
 footer {
-  background: rgb(255, 0, 138);
-  background: linear-gradient(90deg, rgb(255, 0, 138) 0%, rgb(255, 255, 255) 33%, rgb(255, 255, 255) 61%, rgb(255, 0, 138) 100%);
+  background: rgb(255, 144, 204);
+  background: linear-gradient(90deg, rgb(255, 144, 204) 14%, rgb(255, 255, 255) 30%, rgb(255, 243, 249) 74%, rgb(255, 145, 205) 91%);
 }
 footer .linea {
   display: flex;
@@ -49,8 +55,8 @@ footer .linea {
 
 @media (max-width: 425px) {
   footer {
-    background: rgb(255, 0, 138);
-    background: linear-gradient(90deg, rgb(255, 0, 138) 0%, rgb(255, 255, 255) 33%, rgb(255, 255, 255) 61%, rgb(255, 0, 138) 100%);
+    background: rgb(255, 144, 204);
+    background: linear-gradient(90deg, rgb(255, 144, 204) 14%, rgb(255, 255, 255) 30%, rgb(255, 243, 249) 74%, rgb(255, 145, 205) 91%);
   }
 }
 .logo1 {
@@ -58,27 +64,47 @@ footer .linea {
   justify-content: center;
 }
 
-.card-group {
+@media (max-width: 425px) {
+  .div-img {
+    display: flex;
+    height: 60vh;
+  }
+}
+@media (max-width: 425px) {
+  .carousel {
+    display: flex;
+    align-items: center;
+    height: 70vh;
+  }
+}
+.muestra {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.muestra img {
   margin: 20px;
-  padding: 10px;
-  background-color: pink;
+  border: double;
 }
-.card-group .card {
-  background-color: palevioletred;
-}
-.card-group img:hover {
+.muestra img:hover {
   filter: opacity(0.5);
+  color: rgb(151, 16, 38);
 }
 
 @media (max-width: 425px) {
-  .card-group {
+  .muestra {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+  }
+  .muestra img {
+    border: double;
+    width: 160px;
+    height: 100px;
   }
   img:hover {
     filter: opacity(0.5);
   }
 }
 .navbar {
-  background-color: pink;
+  background: rgb(238, 174, 202);
+  background: radial-gradient(circle, rgb(238, 174, 202) 0%, rgb(255, 255, 255) 100%);
 }/*# sourceMappingURL=main.css.map */

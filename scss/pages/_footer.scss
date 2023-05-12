@@ -1,24 +1,22 @@
 footer {
-    background: rgb(255,0,138);
-    background: linear-gradient(90deg, rgba(255,0,138,1) 0%, rgba(255,255,255,1) 33%, rgba(255,255,255,1) 61%, rgba(255,0,138,1) 100%);
+    background: rgb(255, 144, 204);
+    background: linear-gradient(90deg, rgba(255, 144, 204, 1) 14%, rgba(255, 255, 255, 1) 30%, rgba(255, 243, 249, 1) 74%, rgba(255, 145, 205, 1) 91%);
 
-
-.linea{
-    display: flex;
-    justify-content: center;
-    color:rgb(206, 161, 202);
-}
+    .linea {
+        display: flex;
+        justify-content: center;
+        color: rgb(206, 161, 202);
+    }
 
 }
 
 @media (max-width: 425px) {
-    
-    
-    footer {
 
-        background: rgb(255,0,138);
-background: linear-gradient(90deg, rgba(255,0,138,1) 0%, rgba(255,255,255,1) 33%, rgba(255,255,255,1) 61%, rgba(255,0,138,1) 100%);
+
+    footer {
+        background: rgb(255, 144, 204);
+        background: linear-gradient(90deg, rgba(255, 144, 204, 1) 14%, rgba(255, 255, 255, 1) 30%, rgba(255, 243, 249, 1) 74%, rgba(255, 145, 205, 1) 91%);
     }
 
-    
+
 }

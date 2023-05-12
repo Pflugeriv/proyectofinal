@@ -1,31 +1,37 @@
+.muestra {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 
-
-.card-group  {
-    margin: 20px;
-    padding: 10px;
-    background-color: pink;
-  
-.card{
-  background-color: palevioletred;
-}
-
-img:hover {
-
-    filter: opacity(.5);
-}
-
-
-}
-@media (max-width: 425px) {
-
-    .card-group{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+    img {
+        margin: 20px;
+        border: double;
     }
 
-img:hover {
+    img:hover {
 
-    filter: opacity(.5);
+        filter: opacity(.5);
+        color: rgb(151, 16, 38);
+    }
 }
+
+@media (max-width: 425px) {
+
+    .muestra {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .muestra img {
+
+        border: double;
+        width: 160px;
+        height: 100px;
+    }
+
+
+    img:hover {
+
+        filter: opacity(.5);
+    }
 
 }

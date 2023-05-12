@@ -1,4 +1,4 @@
-.logo1{
+.logo1 {
   display: flex;
   justify-content: center;
 
@@ -6,9 +6,11 @@
 }
 
 
-
 @media (max-width: 425px) {
 
-
-
+  .div-img {
+    display: flex;
+    height: 60vh;
   }
+
+}
