@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Sacramento&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sacramento&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -44,8 +46,8 @@
   }
 }
 footer {
-  background: rgb(255, 144, 204);
-  background: linear-gradient(90deg, rgb(255, 144, 204) 14%, rgb(255, 255, 255) 30%, rgb(255, 243, 249) 74%, rgb(255, 145, 205) 91%);
+  background: rgb(255, 255, 255);
+  background: radial-gradient(circle, rgb(255, 255, 255) 25%, rgb(227, 181, 181) 100%);
 }
 footer .linea {
   display: flex;
@@ -55,13 +57,34 @@ footer .linea {
 
 @media (max-width: 425px) {
   footer {
-    background: rgb(255, 144, 204);
-    background: linear-gradient(90deg, rgb(255, 144, 204) 14%, rgb(255, 255, 255) 30%, rgb(255, 243, 249) 74%, rgb(255, 145, 205) 91%);
+    background: rgb(255, 255, 255);
+    background: radial-gradient(circle, rgb(255, 255, 255) 25%, rgb(227, 181, 181) 100%);
   }
 }
 .logo1 {
   display: flex;
   justify-content: center;
+}
+
+.muestra {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.muestra img {
+  border-radius: 80px;
+}
+.muestra img:hover {
+  filter: opacity(0.5);
+  color: rgb(151, 16, 38);
+}
+
+.titulo h2 {
+  font-family: "Sacramento", cursive;
+  color: palevioletred;
+  display: flex;
+  justify-content: center;
+  width: 1000px;
+  margin: 30px;
 }
 
 @media (max-width: 425px) {
@@ -104,7 +127,30 @@ footer .linea {
     filter: opacity(0.5);
   }
 }
+.header {
+  background-image: url("https://www.pharysol.es/wp-content/uploads/2022/02/tejidos-naturales.png");
+  height: 90vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+}
+.header div {
+  -webkit-backdrop-filter: blur(2px);
+          backdrop-filter: blur(2px);
+  padding: 10px;
+}
+.header div h1 {
+  font-family: "Sacramento", cursive;
+}
+.header div h2 {
+  display: flex;
+  font-family: "Sacramento", cursive;
+  margin: 50px;
+}
+
 .navbar {
-  background: rgb(238, 174, 202);
-  background: radial-gradient(circle, rgb(238, 174, 202) 0%, rgb(255, 255, 255) 100%);
+  background: rgb(255, 255, 255);
+  background: radial-gradient(circle, rgb(255, 255, 255) 25%, rgb(227, 181, 181) 100%);
 }/*# sourceMappingURL=main.css.map */
