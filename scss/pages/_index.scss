@@ -6,8 +6,9 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 
-  img {
+  .muestra img {
       border-radius: 80px;
+      margin: 20px;
   }
 
   img:hover {
@@ -22,7 +23,7 @@
   color: palevioletred;
   display: flex;
   justify-content: center;
-  width: 1000px;
+ 
   margin:30px;
 }
 
@@ -30,9 +31,10 @@
 
 @media (max-width: 425px) {
 
-  .div-img {
-    display: flex;
-    height: 60vh;
-  }
+  .muestra img {
+   width: 100px;
+   height: 200px;
+    margin: 10px;
+}
 
 }

@@ -70,8 +70,9 @@ footer .linea {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
-.muestra img {
+.muestra .muestra img {
   border-radius: 80px;
+  margin: 20px;
 }
 .muestra img:hover {
   filter: opacity(0.5);
@@ -83,14 +84,14 @@ footer .linea {
   color: palevioletred;
   display: flex;
   justify-content: center;
-  width: 1000px;
   margin: 30px;
 }
 
 @media (max-width: 425px) {
-  .div-img {
-    display: flex;
-    height: 60vh;
+  .muestra img {
+    width: 100px;
+    height: 200px;
+    margin: 10px;
   }
 }
 @media (max-width: 425px) {
@@ -100,30 +101,35 @@ footer .linea {
     height: 70vh;
   }
 }
-.muestra {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+.card {
+  width: 20rem;
+  padding: 8px;
+  border-radius: 10px;
+  display: flex;
 }
-.muestra img {
-  margin: 20px;
-  border: double;
+.card .card img {
+  margin-bottom: 8px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
-.muestra img:hover {
-  filter: opacity(0.5);
-  color: rgb(151, 16, 38);
+.card .card input {
+  border-radius: 10px;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  background-color: rgba(252, 144, 162, 0.938);
+  width: 80px;
 }
 
 @media (max-width: 425px) {
-  .muestra {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+  .card {
+    width: 24rem;
+    padding: 8px;
+    border-radius: 10px;
+    display: flex;
   }
-  .muestra img {
-    border: double;
-    width: 160px;
-    height: 100px;
-  }
-  img:hover {
+  .card img:hover {
     filter: opacity(0.5);
   }
 }
@@ -139,7 +145,7 @@ footer .linea {
 .header div {
   -webkit-backdrop-filter: blur(2px);
           backdrop-filter: blur(2px);
-  padding: 10px;
+  padding: 3px;
 }
 .header div h1 {
   font-family: "Sacramento", cursive;
@@ -150,6 +156,13 @@ footer .linea {
   margin: 50px;
 }
 
+@media (max-width: 425px) {
+  div {
+    -webkit-backdrop-filter: blur(2px);
+            backdrop-filter: blur(2px);
+    padding: 3px;
+  }
+}
 .navbar {
   background: rgb(255, 255, 255);
   background: radial-gradient(circle, rgb(255, 255, 255) 25%, rgb(227, 181, 181) 100%);
