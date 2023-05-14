@@ -2,39 +2,37 @@
   display: flex;
   justify-content: center;
 }
+
 .muestra {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 
   .muestra img {
-      border-radius: 80px;
-      margin: 20px;
+    border-radius: 80px;
+    margin: 20px;
   }
 
   img:hover {
-
-      filter: opacity(.5);
-      color: rgb(151, 16, 38);
+    filter: opacity(.5);
+    color: rgb(151, 16, 38);
   }
 }
 
-.titulo h2{
+.titulo h2 {
   font-family: $h2-font;
-  color: palevioletred;
+  color: $rosa ;
   display: flex;
   justify-content: center;
- 
-  margin:30px;
+  margin: 30px;
 }
-
 
 
 @media (max-width: 425px) {
 
   .muestra img {
-   width: 100px;
-   height: 200px;
+    width: 100px;
+    height: 200px;
     margin: 10px;
-}
+  }
 
 }
