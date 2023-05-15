@@ -13,21 +13,19 @@
 
 }
 
-.info {
+.card-insta {
     display: flex;
-    background-color: palevioletred;
+    color: white;
+    margin: 60px;
+    padding: 30px;
     justify-content: center;
-    margin: 30px;
-    color: beige;
-    border: groove;
 
-}
 
-.instagram {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-
+    .card {
+        background-color: rgb(224, 181, 195);
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 @media (max-width: 425px) {

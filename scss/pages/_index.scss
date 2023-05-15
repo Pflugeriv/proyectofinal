@@ -7,9 +7,10 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 
-  .muestra img {
-    border-radius: 80px;
+  img {
+    
     margin: 20px;
+    box-shadow: 1px 1px 2px 3px rgba(0, 0, 0, 0.63);
   }
 
   img:hover {
@@ -31,7 +32,7 @@
 
   .muestra img {
     width: 100px;
-    height: 200px;
+    height: 150px;
     margin: 10px;
   }
 

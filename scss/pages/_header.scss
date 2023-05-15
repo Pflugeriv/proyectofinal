@@ -9,8 +9,6 @@
     align-items: center;
 
     div {
-        backdrop-filter: blur(2px);
-        padding: 3px;
 
         h1 {
             font-family: $h1-font;
@@ -19,21 +17,8 @@
         h2 {
             display: flex;
             font-family: $h1-font;
-            margin:50px;
+            margin: 50px;
         }
-
-
-
-    }
-
-
-}
-
-@media (max-width: 425px) {
-
-    div {
-        backdrop-filter: blur(2px);
-        padding: 3px;
     }
 
 }
