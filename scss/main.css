@@ -54,11 +54,10 @@
     grid-template-columns: 1fr 1fr;
   }
   .catalogo-form img {
-    width: 150px;
+    width: 40vw;
   }
   .form {
-    width: 150px;
-    margin-right: 20px;
+    width: 40vw;
   }
   .card {
     background-color: rgb(224, 181, 195);
