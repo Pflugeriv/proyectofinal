@@ -54,10 +54,16 @@
     grid-template-columns: 1fr 1fr;
   }
   .catalogo-form img {
-    width: 200px;
+    width: 150px;
   }
   .form {
-    width: 200px;
+    width: 150px;
+    margin-right: 20px;
+  }
+  .card {
+    background-color: rgb(224, 181, 195);
+    justify-content: center;
+    align-items: center;
   }
 }
 footer {
@@ -137,7 +143,7 @@ footer .linea {
 }
 .card-group .card-body {
   background-color: pink;
-  width: 420px;
+  width: 350px;
   border-radius: 20px;
   margin-bottom: 10px;
   box-shadow: 1px 2px 2px 2px black;
@@ -159,6 +165,8 @@ footer .linea {
 .card-group input {
   background-color: rgb(255, 139, 145);
   color: white;
+  display: flex;
+  align-items: center;
 }
 
 .h1-productos h1 {
@@ -173,6 +181,12 @@ footer .linea {
   .card-group {
     display: flex;
     flex-direction: column;
+  }
+  .card-body {
+    width: 300px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-shadow: 1px 2px 2px 2px black;
   }
 }
 .header {
@@ -210,10 +224,16 @@ footer .linea {
   color: pink;
   display: flex;
   justify-content: center;
-  margin: 20px;
+  margin: 5px;
   font-family: "Sacramento", cursive;
 }
 
 .carousel-control-next-icon {
   background-color: rgb(0, 0, 0);
+}
+
+@media (max-width: 425px) {
+  .h1-nosotros h1 {
+    margin: 2px;
+  }
 }/*# sourceMappingURL=main.css.map */

@@ -57,11 +57,19 @@
     }
 
     .catalogo-form img {
-        width: 200px;
+        width: 150px;
+      
 
     }
 
     .form {
-        width: 200px;
+        width: 150px;
+        margin-right: 20px;
+    }
+    
+    .card {
+        background-color: rgb(224, 181, 195);
+        justify-content: center;
+        align-items: center;
     }
 }
