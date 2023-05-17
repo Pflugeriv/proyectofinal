@@ -32,7 +32,20 @@
   align-items: center;
 }
 
+.h1-contacto h1 {
+  color: pink;
+  background-color: rgba(128, 128, 128, 0.445);
+  display: flex;
+  justify-content: flex-start;
+  margin: 30px;
+  font-family: "Sacramento", cursive;
+}
+
 @media (max-width: 425px) {
+  .h1-contacto h1 {
+    display: flex;
+    justify-content: center;
+  }
   .catalogo {
     margin-top: 40px;
   }
@@ -92,6 +105,18 @@ footer .linea {
     margin: 10px;
   }
 }
+.h1-opinion h1 {
+  color: pink;
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+  font-family: "Sacramento", cursive;
+}
+
+.carousel-control-next-icon {
+  background-color: rgb(0, 0, 0);
+}
+
 @media (max-width: 425px) {
   .carousel {
     display: flex;
@@ -115,6 +140,14 @@ footer .linea {
   font-size: 20px;
   background-color: rgba(252, 144, 162, 0.938);
   width: 80px;
+}
+
+.h1-productos h1 {
+  color: pink;
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+  font-family: "Sacramento", cursive;
 }
 
 @media (max-width: 425px) {
@@ -157,4 +190,16 @@ footer .linea {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+}
+
+.h1-nosotros h1 {
+  color: pink;
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+  font-family: "Sacramento", cursive;
+}
+
+.carousel-control-next-icon {
+  background-color: rgb(0, 0, 0);
 }/*# sourceMappingURL=main.css.map */

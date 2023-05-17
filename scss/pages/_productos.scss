@@ -7,7 +7,7 @@
     .card img {
         margin-bottom: 8px;
         border-radius: 10px;
-      
+
     }
 
     .card input {
@@ -19,6 +19,14 @@
         width: 80px;
 
     }
+}
+
+.h1-productos h1{
+    color: $purple ;
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    font-family: $h1-font ;
 }
 
 @media (max-width: 425px) {

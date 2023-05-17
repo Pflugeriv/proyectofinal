@@ -28,8 +28,21 @@
     }
 }
 
+.h1-contacto h1{
+    color: $purple ;
+    background-color: rgba(128, 128, 128, 0.445);
+    display: flex;
+    justify-content: flex-start;
+    margin: 30px;
+    font-family: $h1-font ;
+}
+
 @media (max-width: 425px) {
 
+    .h1-contacto h1{
+        display: flex;
+        justify-content: center;
+    }
 
     .catalogo {
         margin-top: 40px;
